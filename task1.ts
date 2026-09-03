@@ -13,5 +13,5 @@ if (text.includes(yourName)) {
     .slice(0, firstNameIndex)
     .concat(yourName)
     .concat(text.slice(firstNameIndex + name.length));
-  console.log(newText);
+  console.log(newText.toLocaleLowerCase());
 }
