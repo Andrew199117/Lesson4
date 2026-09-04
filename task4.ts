@@ -6,6 +6,8 @@ const parts = order.split(";");
 console.log(parts);
 const orderNumber = parts[0].split("#")[1];
 const date = parts[1].split("=")[1];
+
+const time = parts[1].split(" ")[0];
 {
-  console.log(`Заказ № ${orderNumber} от ${date}`);
+  console.log(`Заказ № ${orderNumber} от ${date} ${time}`);
 }
