@@ -9,6 +9,7 @@
     "task2": "tsx --watch task2.ts",
     "task3": "tsx --watch task3.ts",
     "task4": "tsx --watch task4.ts",
+    "task5": "tsx --watch task5.ts",
     "format": "prettier --write .",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
